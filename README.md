@@ -4,8 +4,8 @@ Technologies - HTML, CSS3 and Javascript
 
 USER PANEL:
 -   user can register through signup page
-    -   fields on signup page form : firstname, lastname, username, email, password
-    -   username and email should be unique for each user
+    -   fields on signup page form : firstname, lastname, email, password
+    -   email should be unique for each user
     -   password should be stored as encrypted
 - once registered, user can login through login page.
     -   fields on login page form : email, password
@@ -21,5 +21,5 @@ ADMIN PANEL:
 -   once logged in, admin should navigate to dashboard page.
     -   on the dashboard page, admin can see all the registered users in the table
     -   in the table there should be an option to delete a user. Once deleted, users should not be listed there.
-    -   dashboard page should have a logout button at top right to logout admin and redirect back to admin login page.
+    -   dashboard page should have a logout button at top right to logout admin and redirect back to  login page.
 - handle session management"
