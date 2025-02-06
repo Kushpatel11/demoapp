@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="/css/profile.css" />
+  </head>
+  <body>
+    <div class="viewbox">
+      <div class="header">
+        <button type="button" class="delete-button" id="delete-account">
+          Delete Account
+        </button>
+        <button id="logout-btn">Logout</button>
+      </div>
+
+      <div class="container">
+        <div class="part1">
+          <form id="dp">
+            <div class="img">
+              <img id="profileImg" src="/images/img7.png" alt="Profile Photo" />
+            </div>
+            <input
+              type="file"
+              id="profilePhotoInput"
+              accept="image/*"
+              onchange="previewPhoto(event)"
+            />
+            <button id="changedp">Change Photo</button>
+          </form>
+        </div>
+        <div class="part2">
+          <form id="profileForm">
+            <div class="fullname">
+              <label for="firstname">First Name</label>
+              <input
+                type="text"
+                id="profile-firstname"
+                name="firstname"
+                autocomplete="given-name"
+                required
+              />
+
+              <label for="lastname">Last Name</label>
+              <input
+                type="text"
+                id="profile-lastname"
+                name="lastname"
+                autocomplete="family-name"
+                required
+              />
+            </div>
+
+            <div class="others">
+              <div class="email">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="profile-email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+
+              <div class="pass">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="profile-password"
+                  name="password"
+                  autocomplete="current-password"
+                  required
+                />
+              </div>
+              <div class="upb">
+                <button id="up" type="submit">Update Profile</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="/js/profile.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

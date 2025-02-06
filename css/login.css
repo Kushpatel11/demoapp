@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-image: url("/images/img1.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.logincard {
+  height: 30%;
+  width: 35%;
+  margin: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  background: none;
+}
+form button {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  background-color: #92a9b4;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+  font-weight: bold;
+}
+form button:hover {
+  transform: scale(0.99);
+}
+
+#rtsu {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background-color: #92a9b4;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+  font-weight: bold;
+}
+
+#rtsu:hover {
+  transform: scale(0.99);
+}
