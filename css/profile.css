@@ -6,7 +6,7 @@ body {
 }
 
 .viewbox {
-  background-image: url("/images/img2.jpg");
+  background-image: url("/demoapp/images/img2.jpg");
   background-size: cover;
 }
 
